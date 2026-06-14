@@ -36,6 +36,7 @@ def main():
         countfilesAndCompareWithSignature()
 
         print("\nProcess completed successfully.")
+        print("Editing this file to create a seperate pull request and testing GitHub actions")
 
     except Exception as e:
         print(f"\n❌ ERROR: {e}")
