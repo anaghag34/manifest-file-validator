@@ -5,6 +5,7 @@ A Python-based utility tool built for QA automation pipelines. This tool automat
 It is designed to run seamlessly both locally (Windows) and containerized within Docker environments.
 
 **Features**
+
 Smart Path Resolution: Automatically detects whether it is running inside a Linux Docker container (/data) or a local Windows environment.
 
 Safe Extraction: Safely extracts .zip packages dynamically using standard libraries.
@@ -12,6 +13,7 @@ Safe Extraction: Safely extracts .zip packages dynamically using standard librar
 Integrity Validation: Parses manifest.xml and performs automated file-to-signature counting across specific localization and deployment subdirectories (Assay Packages, de).
 
 **Project structure**
+
 ├── data/
 │   ├── MockAssayInstaller.zip   # Sample deployment package
 ├── extractzip.py                # Zip extraction logic
